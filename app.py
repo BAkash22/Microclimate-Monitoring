@@ -30,7 +30,7 @@ def predict():
         humidity = float(data['humidity'])
         ph = float(data['ph'])
         rainfall = float(data['rainfall'])
-        season = data['season']
+        season = 'Kharif'
           # Assuming current year for historical comparison
 
         # Prepare the features for prediction
